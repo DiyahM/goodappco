@@ -35,18 +35,18 @@ body {
 }
 
 a:link,a:visited,a:active{
-	color:#979797;
+	color:#333300;
 	outline: 0;
 	text-decoration:none;
 }
 
 a:hover{
-	color:#2ba6cb;
+	color:#CC6600;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-	color:#06A9A8;
+	color:#663300;
 	font-weight:700;
 	font-family: 'Lato', sans-serif;
 }
@@ -129,11 +129,11 @@ font-size:14px;
 .header-wrap {overflow:visible;}
 
 .logo {
-	margin-top:-15px;
-	float:left;
-  background:#23B5CC;
-  padding: 9px;
-  border-radius:10px;
+  padding-top: 4%;
+  font-family: 'Devonshire', cursive;
+  font-size:2em;
+  padding-left:9%;
+  color:#fff;
 }
 
 .logo h1, .logo h1 a {
@@ -145,31 +145,47 @@ font-size:14px;
 /* RESPONSIVE SLIDER CONTENT STYLES
 /*-----------------------------------------------------------------------------------*/
 
-.slider-wrap {background:#EBE2A1;overflow:hidden;}
+.slider-wrap {
+  background:rgba(0,0,0,0.95) url(../images/iStock_000023450501Large.jpg) no-repeat center center;
+  overflow:hidden;
+  background-size:100%;
+}
 
-.rsp-caption {margin-bottom:30%;}
+.rsp-overlay {
+  background-color:rgba(0,0,0,0.5);
+}
+.slider-overlay {
+  background-color:rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+.rsp-caption {margin-bottom:30%; margin-top:33%;}
 
 .rsp-caption h2 {
 	text-transform: none;
-	padding:1%;
-	color:#050200;
+	padding-left:7%;
+  padding-bottom:9%;
+	color:#fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	line-height:0.9em;
-	font-size:3em;
-	margin-top:77%;
+	font-size:3.5em;
 }
 
 .rsp-caption p {
-	padding:12px 0 30px 0;
-	color:#050200;
+	color:#fff;
 	font-family: 'Helvetica', sans-serif;
-	font-weight:100;
-	line-height:20px;
-	font-size:14px;
+	font-weight:500;
+	line-height:1.2em;
+	font-size:1.2em;
+  padding-left:9%;
 }
 
-.app-ico {margin-top:20px;}
+.app-ico {margin-top:20px;padding-left:9%;}
 
 .app-ico span {
 	float:left;
@@ -256,11 +272,12 @@ font-size:14px;
 .features-description{
 	font-weight:400;
 	line-height:20px;
+  color:#333300;
 }
 
 .features-description h5{
 	font-size:1.8em;
-  color:#979797;
+  color:#333300;
 }
 
 .features-description p{
