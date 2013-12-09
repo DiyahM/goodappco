@@ -198,7 +198,7 @@ font-size:14px;
 	transition:all 0.5s ease-in-out; 
 }
 
-.app-ico span img:hover {opacity:0.4;filter: alpha(opacity = 40);}
+.app-ico span img:hover {}
 
 /*-----------------------------------------------------------------------------------*/
 /* OTHER CONTENT STYLES
@@ -252,7 +252,7 @@ font-size:14px;
 	text-align:center;
 }
 
-.features-content:hover {cursor:pointer;}
+.features-content:hover {}
 
 .features-icon {
 	position: relative;
@@ -307,7 +307,7 @@ font-size:14px;
 	transition:all 0.5s ease-in-out; 
 }
 
-.app-ico2 span img:hover {opacity:0.5;filter: alpha(opacity = 50);}
+.app-ico2 span img:hover {}
 
 /*-----------------------------------------------------------------------------------*/
 /* FOOTER CONTENT STYLES
