@@ -11,6 +11,10 @@ AUTHOR URI: http://www.wordpresstoblogger.info
 /* GLOBAL CONTENT STYLES
 /*-----------------------------------------------------------------------------------*/
 
+body:after{
+    display:none;
+    content: url(../images/iStock_000023450501Large_mini.jpg);
+}
 .contact {
   color: white;
   float:right;
