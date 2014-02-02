@@ -50,7 +50,6 @@ a:hover{
 
 
 h1, h2, h3, h4, h5, h6 {
-	color:#663300;
 	font-weight:700;
 	font-family: 'Lato', sans-serif;
 }
@@ -82,6 +81,16 @@ h6 {
 p {
 line-height:1.5em;
 font-size:14px;
+color:#333;
+}
+
+.airport {
+  margin-top:-8%;
+}
+
+.contact-bottom p{
+  margin-top:5%;
+  font-size: 2em;
 }
 
 .align-right { float:right; margin: 0 0 5px 10px; }
@@ -155,6 +164,10 @@ font-size:14px;
   background-size:100%;
 }
 
+.mobile-header {display:none;}
+
+#android-img {width:62%; margin-top:-15%;margin-left:12%;}
+
 .rsp-overlay {
   background-color:rgba(0,0,0,0.5);
 }
@@ -171,13 +184,28 @@ font-size:14px;
 
 .rsp-caption h2 {
 	text-transform: none;
-	padding-left:7%;
   padding-bottom:9%;
-	color:#fff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:400;
-	line-height:0.9em;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	font-weight:bold;
+	line-height:1em;
 	font-size:3.5em;
+}
+
+.rsp-caption h1 {
+	text-transform: none;
+  padding-bottom:9%;
+	color:#FFF700;
+	font-family: 'Oswald', sans-serif;
+	font-weight:bold;
+	line-height:1em;
+	font-size:5em;
+}
+
+.rsp-caption h4 {
+  color:white;
+  margin-top:-8%;
+
 }
 
 .rsp-caption p {
@@ -189,7 +217,7 @@ font-size:14px;
   padding-left:9%;
 }
 
-.app-ico {margin-top:20px;padding-left:9%;}
+.app-ico {margin-top:20px;}
 
 .app-ico span {
 	float:left;
@@ -244,7 +272,25 @@ font-size:14px;
 	height: 82%;
 	margin: 0 auto;
 }
+.about {
+  background-color: #FFF700;
+  padding:35px;
+  color:#333;
+  font-family:'Oswald', sans-serif;
+}
 
+.about p {
+  text-align:center;
+  font-size:3em;
+  line-height:1.2em;
+}
+
+.section-header {
+  color:#ef4723;
+  font-family:'Oswald', sans-serif;
+  font-size:10em;
+  line-height:0.8em;
+}
 /*-----------------------------------------------------------------------------------*/
 /* FEATURES CONTENT STYLES
 /*-----------------------------------------------------------------------------------*/
@@ -424,8 +470,8 @@ ul.social-networks li {
 .rsp-caption h2 {font-size: 140%;margin-top:85%;}
 
 .slider-wrap {
-	background:#EBE2A1;
-	padding-top:0px;
+	/* background:#EBE2A1; */
+	/* padding-top:0px; */
 }
 
 .video {
@@ -454,11 +500,19 @@ ul.social-networks li {
 	height:auto;
 }
 
-.rsp-caption, .rsp-caption h2, .rsp-caption p {display:none;}
+.rsp-caption, .rsp-caption p {display:none;}
+.about {display:none;}
+.section-header{font-size:2em;}
+.contact-bottom p{font-size:1em;}
+.mobile-header{display:block;}
+.mobile-header h2{font-family:'Oswald', sans-serif;font-size:2.5em;}
+#android-img{margin-top:1%;}
+#pos-img{margin-top:15%;}
 
 .slider-wrap {
-	background:#EBE2A1;
-	padding-top:80px;
+  height:226px;
+	/* background:#EBE2A1; */
+	/* padding-top:80px; */
 }
 
 .wrap2 h2 {	font-size:20px;}
