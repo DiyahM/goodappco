@@ -467,9 +467,12 @@ ul.social-networks li {
 	height:auto;
 }
 
-.rsp-caption h2 {font-size: 140%;margin-top:85%;}
+.rsp-caption{margin-top:0px;}
+.rsp-caption h2 {font-size: 3em;}
+.about p{text-align:left;font-size:1.8em;}
 
 .slider-wrap {
+  height:500px;
 	/* background:#EBE2A1; */
 	/* padding-top:0px; */
 }
